@@ -1,0 +1,324 @@
+2023-05-30 22:41:20,793 INFO Starting Nacos v1.1.4 on LAPTOP-JMFDVK15 with PID 16176 (E:\实训\物流订单管理系统\物流订单管理系统\middleware\nacos\target\nacos-server.jar started by ASUS in E:\实训\物流订单管理系统\物流订单管理系统\middleware\nacos\bin)
+
+2023-05-30 22:41:20,797 INFO The following profiles are active: standalone
+
+2023-05-30 22:41:22,903 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$64f4cb39] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-05-30 22:41:23,007 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-05-30 22:41:23,011 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5ddeb7cb' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-05-30 22:41:23,014 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$89c96deb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-05-30 22:41:23,021 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-05-30 22:41:23,763 INFO Tomcat initialized with port(s): 8848 (http)
+
+2023-05-30 22:41:23,801 INFO Starting service [Tomcat]
+
+2023-05-30 22:41:23,803 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2023-05-30 22:41:23,819 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_321\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;L:\Vmware\bin\;L:\Qt\qttt\5.14.0\mingw73_32\bin;L:\Qt\qttt\5.14.0\mingw73_64\bin;L:\Qt\qttt\Tools\mingw730_32\bin;L:\Qt\qttt\Tools\mingw730_64\bin;L:\Qt\qttt\Tools\QtCreator\bin;L:\Python\python\Scripts\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;L:\Python\python;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;D:\微信开发\微信web开发者工具\dll;D:\mysql\m;sql-8.0.29-winx64\bin;%MYSQL_HOME%\bin;D:\bison\GnuWin32\bin;D:\flex\GnuWin32\bin;E:\MinGW\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin;D:\java\Jflex\jflex-1.8.2\jflex-1.8.2\bin;D:\flex+bison\win_flex_bison;D:\android\sdk\platform-tools;D:\node.js\node\;D:\node.js\node\node_global\node_modules;L:\git\Git\cmd;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Program Files\Java\jdk1.8.0_321\jre\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\mingw64\bin;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;L:\py\PyCharm 2022.3\bin;;C:\Program Files\Azure Data Studio\bin;E:\VScode\Microsoft VS Code\bin;E:\clion\CLion 2022.1.2\bin;;C:\Program Files\Google\Chrome\Application\;D:\node.js\node\node_global;D:\小程序\微信web开发者工具\dll;;.]
+
+2023-05-30 22:41:23,930 INFO Initializing Spring embedded WebApplicationContext
+
+2023-05-30 22:41:23,930 INFO Root WebApplicationContext: initialization completed in 3095 ms
+
+2023-05-30 22:41:27,004 INFO Use Mysql as the driver
+
+2023-05-30 22:41:27,503 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2023-05-30 22:41:27,696 INFO Adding welcome page: class path resource [static/index.html]
+
+2023-05-30 22:41:28,012 INFO Creating filter chain: Ant [pattern='/'], []
+
+2023-05-30 22:41:28,012 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
+
+2023-05-30 22:41:28,012 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
+
+2023-05-30 22:41:28,012 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
+
+2023-05-30 22:41:28,012 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
+
+2023-05-30 22:41:28,012 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
+
+2023-05-30 22:41:28,012 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
+
+2023-05-30 22:41:28,012 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
+
+2023-05-30 22:41:28,012 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
+
+2023-05-30 22:41:28,012 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
+
+2023-05-30 22:41:28,012 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
+
+2023-05-30 22:41:28,012 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
+
+2023-05-30 22:41:28,012 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
+
+2023-05-30 22:41:28,012 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
+
+2023-05-30 22:41:28,012 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
+
+2023-05-30 22:41:28,012 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
+
+2023-05-30 22:41:28,048 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2ece4966, org.springframework.security.web.context.SecurityContextPersistenceFilter@160ac7fb, org.springframework.security.web.header.HeaderWriterFilter@3b220bcb, org.springframework.security.web.authentication.logout.LogoutFilter@618c5d94, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@1dd0e7c4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@41925502, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f053c80, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7894f09b, org.springframework.security.web.session.SessionManagementFilter@4a3329b9, org.springframework.security.web.access.ExceptionTranslationFilter@efde75f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@388ba540]
+
+2023-05-30 22:41:28,136 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2023-05-30 22:41:28,153 INFO Initializing ExecutorService 'taskScheduler'
+
+2023-05-30 22:41:28,262 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2023-05-30 22:41:28,280 INFO Started Nacos in 8.594 seconds (JVM running for 9.252)
+
+2023-05-30 22:41:28,280 INFO Nacos Log files: E:\实训\物流订单管理系统\物流订单管理系统\middleware\nacos/logs/
+
+2023-05-30 22:41:28,284 INFO Nacos Conf files: E:\实训\物流订单管理系统\物流订单管理系统\middleware\nacos/conf/
+
+2023-05-30 22:41:28,284 INFO Nacos Data files: E:\实训\物流订单管理系统\物流订单管理系统\middleware\nacos/data/
+
+2023-05-30 22:41:28,284 INFO Nacos started successfully in stand alone mode.
+
+2023-05-30 22:41:31,770 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2023-05-30 22:41:31,770 INFO Initializing Servlet 'dispatcherServlet'
+
+2023-05-30 22:41:31,779 INFO Completed initialization in 9 ms
+
+2023-05-30 22:46:46,926 INFO Starting Nacos v1.1.4 on LAPTOP-JMFDVK15 with PID 15928 (E:\实训\物流订单管理系统\物流订单管理系统\middleware\nacos\target\nacos-server.jar started by ASUS in E:\实训\物流订单管理系统\物流订单管理系统\middleware\nacos)
+
+2023-05-30 22:46:46,928 INFO The following profiles are active: standalone
+
+2023-05-30 22:46:48,868 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$deaf5813] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-05-30 22:46:48,954 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-05-30 22:46:48,958 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7c37508a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-05-30 22:46:48,962 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$383fac5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-05-30 22:46:48,969 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-05-30 22:46:49,699 INFO Tomcat initialized with port(s): 8848 (http)
+
+2023-05-30 22:46:49,727 INFO Starting service [Tomcat]
+
+2023-05-30 22:46:49,727 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2023-05-30 22:46:49,740 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_321\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Microsoft MPI\Bin\;L:\Vmware\bin\;L:\Qt\qttt\5.14.0\mingw73_32\bin;L:\Qt\qttt\5.14.0\mingw73_64\bin;L:\Qt\qttt\Tools\mingw730_32\bin;L:\Qt\qttt\Tools\mingw730_64\bin;L:\Qt\qttt\Tools\QtCreator\bin;L:\Python\python\Scripts\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;L:\Python\python;C:\Program Files\Azure Data Studio\bin;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;D:\微信开发\微信web开发者工具\dll;D:\mysql\m;sql-8.0.29-winx64\bin;%MYSQL_HOME%\bin;D:\bison\GnuWin32\bin;D:\flex\GnuWin32\bin;E:\MinGW\x86_64-8.1.0-release-posix-sjlj-rt_v6-rev0\mingw64\bin;D:\java\Jflex\jflex-1.8.2\jflex-1.8.2\bin;D:\flex+bison\win_flex_bison;D:\android\sdk\platform-tools;D:\node.js\node\;D:\node.js\node\node_global\node_modules;L:\git\Git\cmd;C:\Program Files\Java\jdk1.8.0_321\bin;C:\Program Files\Java\jdk1.8.0_321\jre\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files\mingw64\bin;C:\Users\ASUS\AppData\Local\Microsoft\WindowsApps;L:\py\PyCharm 2022.3\bin;E:\VScode\Microsoft VS Code\bin;E:\clion\CLion 2022.1.2\bin;C:\Program Files\Google\Chrome\Application\;D:\node.js\node\node_global;D:\小程序\微信web开发者工具\dll;.]
+
+2023-05-30 22:46:49,836 INFO Initializing Spring embedded WebApplicationContext
+
+2023-05-30 22:46:49,836 INFO Root WebApplicationContext: initialization completed in 2863 ms
+
+2023-05-30 22:46:52,602 INFO Use Mysql as the driver
+
+2023-05-30 22:46:53,120 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2023-05-30 22:46:53,315 INFO Adding welcome page: class path resource [static/index.html]
+
+2023-05-30 22:46:53,653 INFO Creating filter chain: Ant [pattern='/'], []
+
+2023-05-30 22:46:53,653 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
+
+2023-05-30 22:46:53,654 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
+
+2023-05-30 22:46:53,658 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
+
+2023-05-30 22:46:53,659 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
+
+2023-05-30 22:46:53,660 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
+
+2023-05-30 22:46:53,661 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
+
+2023-05-30 22:46:53,662 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
+
+2023-05-30 22:46:53,663 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
+
+2023-05-30 22:46:53,663 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
+
+2023-05-30 22:46:53,664 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
+
+2023-05-30 22:46:53,665 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
+
+2023-05-30 22:46:53,665 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
+
+2023-05-30 22:46:53,666 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
+
+2023-05-30 22:46:53,668 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
+
+2023-05-30 22:46:53,668 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
+
+2023-05-30 22:46:53,700 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b11a194, org.springframework.security.web.context.SecurityContextPersistenceFilter@618c5d94, org.springframework.security.web.header.HeaderWriterFilter@13e3c1c7, org.springframework.security.web.authentication.logout.LogoutFilter@285c08c8, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@37bd68c3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@13c3c1e1, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3b956878, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@60f7cc1d, org.springframework.security.web.session.SessionManagementFilter@3f053c80, org.springframework.security.web.access.ExceptionTranslationFilter@12bfd80d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7be58f16]
+
+2023-05-30 22:46:53,806 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2023-05-30 22:46:53,841 INFO Initializing ExecutorService 'taskScheduler'
+
+2023-05-30 22:46:53,964 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2023-05-30 22:46:53,970 INFO Started Nacos in 8.044 seconds (JVM running for 8.578)
+
+2023-05-30 22:46:53,971 INFO Nacos Log files: E:\实训\物流订单管理系统\物流订单管理系统\middleware\nacos/logs/
+
+2023-05-30 22:46:53,972 INFO Nacos Conf files: E:\实训\物流订单管理系统\物流订单管理系统\middleware\nacos/conf/
+
+2023-05-30 22:46:53,973 INFO Nacos Data files: E:\实训\物流订单管理系统\物流订单管理系统\middleware\nacos/data/
+
+2023-05-30 22:46:53,975 INFO Nacos started successfully in stand alone mode.
+
+2023-05-30 22:46:55,521 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2023-05-30 22:46:55,522 INFO Initializing Servlet 'dispatcherServlet'
+
+2023-05-30 22:46:55,537 INFO Completed initialization in 15 ms
+
+2023-05-30 22:56:52,384 INFO [capacityManagement] start correct usage
+
+2023-05-30 22:56:52,445 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-05-30 22:56:52,598 WARN clearConfigHistory start
+
+2023-05-30 22:56:52,618 WARN clearConfigHistory, getBeforeStamp:2023-04-30 22:56:52.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-05-30 22:56:52,696 ERROR clearConfigHistory error
+
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; SQL state [null]; error code [0]; Borrow prepareStatement from pool failed; nested exception is org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1444)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.alibaba.nacos.config.server.utils.PaginationHelper.updateLimit(PaginationHelper.java:211)
+	at com.alibaba.nacos.config.server.service.PersistService.removeConfigHistory(PersistService.java:934)
+	at com.alibaba.nacos.config.server.service.PersistService$$FastClassBySpringCGLIB$$21ae4232.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.alibaba.nacos.config.server.service.PersistService$$EnhancerBySpringCGLIB$$42f0dc86.removeConfigHistory(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpService.lambda$init$2(DumpService.java:98)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:113)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1557)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:615)
+	... 21 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.commons.dbcp.PoolingConnection.makeObject(PoolingConnection.java:285)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:107)
+	... 25 common frames omitted
+Caused by: org.apache.derby.impl.jdbc.EmbedSQLException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 42 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 36 common frames omitted
+2023-05-30 23:06:52,451 INFO [capacityManagement] start correct usage
+
+2023-05-30 23:06:52,454 INFO [capacityManagement] end correct usage, cost: 0s
+
+2023-05-30 23:06:52,717 WARN clearConfigHistory start
+
+2023-05-30 23:06:52,718 WARN clearConfigHistory, getBeforeStamp:2023-04-30 23:06:52.0, totalCount:9, pageSize:1000, removeTime:1
+
+2023-05-30 23:06:52,722 ERROR clearConfigHistory error
+
+org.springframework.jdbc.UncategorizedSQLException: PreparedStatementCallback; uncategorized SQLException for SQL [delete from his_config_info where gmt_modified < ? OFFSET 0 ROWS FETCH NEXT ? ROWS ONLY]; SQL state [null]; error code [0]; Borrow prepareStatement from pool failed; nested exception is org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:89)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:81)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1444)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:632)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:862)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:917)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:927)
+	at com.alibaba.nacos.config.server.utils.PaginationHelper.updateLimit(PaginationHelper.java:211)
+	at com.alibaba.nacos.config.server.service.PersistService.removeConfigHistory(PersistService.java:934)
+	at com.alibaba.nacos.config.server.service.PersistService$$FastClassBySpringCGLIB$$21ae4232.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:749)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:139)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at com.alibaba.nacos.config.server.service.PersistService$$EnhancerBySpringCGLIB$$42f0dc86.removeConfigHistory(<generated>)
+	at com.alibaba.nacos.config.server.service.dump.DumpService.lambda$init$2(DumpService.java:98)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:750)
+Caused by: org.apache.commons.dbcp.SQLNestedException: Borrow prepareStatement from pool failed
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:113)
+	at org.apache.commons.dbcp.DelegatingConnection.prepareStatement(DelegatingConnection.java:281)
+	at org.apache.commons.dbcp.PoolingDataSource$PoolGuardConnectionWrapper.prepareStatement(PoolingDataSource.java:313)
+	at org.springframework.jdbc.core.JdbcTemplate$SimplePreparedStatementCreator.createPreparedStatement(JdbcTemplate.java:1557)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:615)
+	... 21 common frames omitted
+Caused by: java.sql.SQLSyntaxErrorException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.Util.generateCsSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.wrapInSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.TransactionResourceImpl.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.ConnectionChild.handleException(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement20.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement30.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement40.<init>(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedPreparedStatement42.<init>(Unknown Source)
+	at org.apache.derby.jdbc.Driver42.newEmbedPreparedStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.derby.impl.jdbc.EmbedConnection.prepareStatement(Unknown Source)
+	at org.apache.commons.dbcp.PoolingConnection.makeObject(PoolingConnection.java:285)
+	at org.apache.commons.pool.impl.GenericKeyedObjectPool.borrowObject(GenericKeyedObjectPool.java:1220)
+	at org.apache.commons.dbcp.PoolingConnection.prepareStatement(PoolingConnection.java:107)
+	... 25 common frames omitted
+Caused by: org.apache.derby.impl.jdbc.EmbedSQLException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory.getSQLException(Unknown Source)
+	at org.apache.derby.impl.jdbc.SQLExceptionFactory40.wrapArgsForTransportAcrossDRDA(Unknown Source)
+	... 42 common frames omitted
+Caused by: org.apache.derby.iapi.error.StandardException: Syntax error: Encountered "OFFSET" at line 1, column 52.
+	at org.apache.derby.iapi.error.StandardException.newException(Unknown Source)
+	at org.apache.derby.impl.sql.compile.ParserImpl.parseStatement(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepMinion(Unknown Source)
+	at org.apache.derby.impl.sql.GenericStatement.prepare(Unknown Source)
+	at org.apache.derby.impl.sql.conn.GenericLanguageConnectionContext.prepareInternalStatement(Unknown Source)
+	... 36 common frames omitted

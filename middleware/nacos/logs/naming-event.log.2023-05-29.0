@@ -1,0 +1,50 @@
+2023-05-29 12:36:58,124 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.110:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-29 12:36:58,127 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 192.168.0.110:8081_true,
+
+2023-05-29 12:37:01,459 INFO DEFAULT_GROUP@@order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.110:8002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-29 12:37:01,460 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order, ips: 192.168.0.110:8002_true,
+
+2023-05-29 12:37:07,379 INFO DEFAULT_GROUP@@user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.110:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-29 12:37:07,379 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user, ips: 192.168.0.110:8001_true,
+
+2023-05-29 13:02:03,892 INFO {POS} {IP-DISABLED} valid: 192.168.0.110:8002@DEFAULT@DEFAULT_GROUP@@order, region: unknown, msg: client timeout after 15000, last beat: 1685336504701
+
+2023-05-29 13:02:19,042 INFO DEFAULT_GROUP@@order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.110:8002:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-29 13:02:19,042 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order, ips: 
+
+2023-05-29 13:02:28,298 INFO DEFAULT_GROUP@@order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.0.110:8002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-29 13:02:28,298 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order, ips: 192.168.0.110:8002_true,
+
+2023-05-29 13:12:09,977 INFO {POS} {IP-DISABLED} valid: 192.168.0.110:8002@DEFAULT@DEFAULT_GROUP@@order, region: unknown, msg: client timeout after 15000, last beat: 1685337114559
+
+2023-05-29 13:12:10,411 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order, ips: 192.168.0.110:8002_false,
+
+2023-05-29 13:12:15,424 INFO service: DEFAULT_GROUP@@order {POS} {IP-ENABLED} valid: 192.168.0.110:8002@DEFAULT, region: unknown, msg: client beat ok
+
+2023-05-29 19:21:36,950 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order, ips: 192.168.0.110:8002_true,
+
+2023-05-29 19:40:59,906 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order, ips: 192.168.0.110:8002_true,
+
+2023-05-29 20:02:02,291 INFO {POS} {IP-DISABLED} valid: 192.168.0.110:8001@DEFAULT@DEFAULT_GROUP@@user, region: unknown, msg: client timeout after 15000, last beat: 1685361704682
+
+2023-05-29 20:02:03,210 INFO {POS} {IP-DISABLED} valid: 192.168.0.110:8081@DEFAULT@DEFAULT_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1685361703570
+
+2023-05-29 20:02:06,976 INFO {POS} {IP-DISABLED} valid: 192.168.0.110:8002@DEFAULT@DEFAULT_GROUP@@order, region: unknown, msg: client timeout after 15000, last beat: 1685361707390
+
+2023-05-29 20:02:17,327 INFO DEFAULT_GROUP@@user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.110:8001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-29 20:02:17,327 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user, ips: 
+
+2023-05-29 20:02:18,244 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.110:8081:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-29 20:02:18,244 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 
+
+2023-05-29 20:02:22,000 INFO DEFAULT_GROUP@@order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.0.110:8002:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-29 20:02:22,000 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order, ips: 
+

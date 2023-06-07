@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.order.dao.CompanyDao">
+
+    <resultMap type="com.example.order.entity.Company" id="CompanyMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="name" column="name" jdbcType="VARCHAR"/>
+        <result property="contactPerson" column="contact_person" jdbcType="VARCHAR"/>
+        <result property="address" column="address" jdbcType="VARCHAR"/>
+        <result property="phoneNumber" column="phone_number" jdbcType="VARCHAR"/>
+        <result property="contactPhoneNumber" column="contact_phone_number" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="CompanyMap">
+        select
+          id, name, contact_person, address, phone_number, contact_phone_number
+        from logistics_order_management.company
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="CompanyMap">
+        select
+          id, name, contact_person, address, phone_number, contact_phone_number
+        from logistics_order_management.company
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="CompanyMap">
+        select
+        id, name, contact_person, address, phone_number, contact_phone_number
+        from logistics_order_management.company
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="name != null and name != ''">
+                and name = #{name}
+            </if>
+            <if test="contactPerson != null and contactPerson != ''">
+                and contact_person = #{contactPerson}
+            </if>
+            <if test="address != null and address != ''">
+                and address = #{address}
+            </if>
+            <if test="phoneNumber != null and phoneNumber != ''">
+                and phone_number = #{phoneNumber}
+            </if>
+            <if test="contactPhoneNumber != null and contactPhoneNumber != ''">
+                and contact_phone_number = #{contactPhoneNumber}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into logistics_order_management.company(name, contact_person, address, phone_number, contact_phone_number)
+        values (#{name}, #{contactPerson}, #{address}, #{phoneNumber}, #{contactPhoneNumber})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into logistics_order_management.company(name, contact_person, address, phone_number,
+        contact_phone_number)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.name}, #{entity.contactPerson}, #{entity.address}, #{entity.phoneNumber},
+            #{entity.contactPhoneNumber})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into logistics_order_management.company(name, contact_person, address, phone_number,
+        contact_phone_number)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.name}, #{entity.contactPerson}, #{entity.address}, #{entity.phoneNumber},
+            #{entity.contactPhoneNumber})
+        </foreach>
+        on duplicate key update
+        name = values(name) , contact_person = values(contact_person) , address = values(address) , phone_number =
+        values(phone_number) , contact_phone_number = values(contact_phone_number)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update logistics_order_management.company
+        <set>
+            <if test="name != null and name != ''">
+                name = #{name},
+            </if>
+            <if test="contactPerson != null and contactPerson != ''">
+                contact_person = #{contactPerson},
+            </if>
+            <if test="address != null and address != ''">
+                address = #{address},
+            </if>
+            <if test="phoneNumber != null and phoneNumber != ''">
+                phone_number = #{phoneNumber},
+            </if>
+            <if test="contactPhoneNumber != null and contactPhoneNumber != ''">
+                contact_phone_number = #{contactPhoneNumber},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from logistics_order_management.company where id = #{id}
+    </delete>
+
+</mapper>
+

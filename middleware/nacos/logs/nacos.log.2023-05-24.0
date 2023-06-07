@@ -1,0 +1,88 @@
+2023-05-24 21:00:42,972 INFO Starting Nacos v1.1.4 on LAPTOP-MDMSC2TV with PID 14208 (D:\new_student\项目\物流订单管理系统\middleware\nacos\target\nacos-server.jar started by haha in D:\new_student\项目\物流订单管理系统\middleware\nacos\bin)
+
+2023-05-24 21:00:42,975 INFO The following profiles are active: standalone
+
+2023-05-24 21:00:44,389 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$fcd6b44e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-05-24 21:00:44,462 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-05-24 21:00:44,464 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@533bda92' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-05-24 21:00:44,467 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$21ab5700] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-05-24 21:00:44,471 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2023-05-24 21:00:45,359 INFO Tomcat initialized with port(s): 8848 (http)
+
+2023-05-24 21:00:45,381 INFO Starting service [Tomcat]
+
+2023-05-24 21:00:45,381 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2023-05-24 21:00:45,390 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [D:\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;D:\Program Files (x86)\activePerl\site\bin;D:\Program Files (x86)\activePerl\bin;D:\Java\jdk1.8.0_131\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\haha\Desktop;D:\new_student\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Users\haha\Desktop\student\java\apache-maven-3.6.3\bin;D:\mysql\bin;D:\nodejs\;D:\Program Files (x86)\ffmpeg\bin;D:\Microsoft VS Code\bin;C:\Users\haha\Desktop\学习\mysql\bin;D:\IntelliJ IDEA Community Edition 2019.2.4\bin;C:\Users\haha\AppData\Roaming\npm;C:\Users\haha\AppData\Local\Microsoft\WindowsApps;C:\Users\haha\Desktop\sim_exe_3_0_2;C:\Program Files\Azure Data Studio\bin;C:\Users\haha\AppData\Local\Microsoft\WindowsApps;D:\Program Files (x86)\Tencent\微信web开发者工具\dll;D:\python\3.6\Scripts\;D:\python\3.6\;D:\Java\jdk1.8.0_131\bin;C:\Users\haha\Desktop;D:\Microsoft VS Code\bin;C:\Users\haha\Desktop\学习\mysql\bin;D:\IntelliJ IDEA Community Edition 2019.2.4\bin;C:\Users\haha\AppData\Roaming\npm;C:\Users\haha\AppData\Local\Microsoft\WindowsApps;C:\Users\haha\Desktop\sim_exe_3_0_2;;C:\Program Files\Azure Data Studio\bin;C:\Users\haha\AppData\Local\Microsoft\WindowsApps;.]
+
+2023-05-24 21:00:45,462 INFO Initializing Spring embedded WebApplicationContext
+
+2023-05-24 21:00:45,462 INFO Root WebApplicationContext: initialization completed in 2441 ms
+
+2023-05-24 21:00:47,608 INFO Use Mysql as the driver
+
+2023-05-24 21:00:47,908 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2023-05-24 21:00:48,247 INFO Adding welcome page: class path resource [static/index.html]
+
+2023-05-24 21:00:48,528 INFO Creating filter chain: Ant [pattern='/'], []
+
+2023-05-24 21:00:48,529 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
+
+2023-05-24 21:00:48,530 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
+
+2023-05-24 21:00:48,531 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
+
+2023-05-24 21:00:48,531 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
+
+2023-05-24 21:00:48,532 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
+
+2023-05-24 21:00:48,532 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
+
+2023-05-24 21:00:48,532 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
+
+2023-05-24 21:00:48,533 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
+
+2023-05-24 21:00:48,534 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
+
+2023-05-24 21:00:48,534 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
+
+2023-05-24 21:00:48,535 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
+
+2023-05-24 21:00:48,536 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
+
+2023-05-24 21:00:48,536 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
+
+2023-05-24 21:00:48,537 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
+
+2023-05-24 21:00:48,537 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
+
+2023-05-24 21:00:48,561 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19fb8826, org.springframework.security.web.context.SecurityContextPersistenceFilter@dcfda20, org.springframework.security.web.header.HeaderWriterFilter@58ebfd03, org.springframework.security.web.authentication.logout.LogoutFilter@30d4b288, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@192d74fb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@f73dcd6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@40499e4f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4bef0fe3, org.springframework.security.web.session.SessionManagementFilter@1fdfafd2, org.springframework.security.web.access.ExceptionTranslationFilter@5b43fbf6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@609640d5]
+
+2023-05-24 21:00:48,633 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2023-05-24 21:00:48,657 INFO Initializing ExecutorService 'taskScheduler'
+
+2023-05-24 21:00:48,737 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2023-05-24 21:00:48,741 INFO Started Nacos in 7.103 seconds (JVM running for 7.554)
+
+2023-05-24 21:00:48,741 INFO Nacos Log files: D:\new_student\项目\物流订单管理系统\middleware\nacos/logs/
+
+2023-05-24 21:00:48,741 INFO Nacos Conf files: D:\new_student\项目\物流订单管理系统\middleware\nacos/conf/
+
+2023-05-24 21:00:48,742 INFO Nacos Data files: D:\new_student\项目\物流订单管理系统\middleware\nacos/data/
+
+2023-05-24 21:00:48,742 INFO Nacos started successfully in stand alone mode.
+
+2023-05-24 21:00:52,508 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2023-05-24 21:00:52,508 INFO Initializing Servlet 'dispatcherServlet'
+
+2023-05-24 21:00:52,516 INFO Completed initialization in 7 ms
+

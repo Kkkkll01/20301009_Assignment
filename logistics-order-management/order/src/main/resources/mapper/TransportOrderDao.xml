@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.example.order.dao.TransportOrderDao">
+
+    <resultMap type="com.example.order.entity.TransportOrder" id="TransportOrderMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
+        <result property="orderNumber" column="order_number" jdbcType="VARCHAR"/>
+        <result property="userId" column="user_id" jdbcType="INTEGER"/>
+        <result property="username" column="username" jdbcType="VARCHAR"/>
+        <result property="companyId" column="company_id" jdbcType="INTEGER"/>
+        <result property="companyName" column="company_name" jdbcType="VARCHAR"/>
+        <result property="status" column="status" jdbcType="VARCHAR"/>
+        <result property="createTime" column="create_time" jdbcType="TIMESTAMP"/>
+        <result property="shipperName" column="shipper_name" jdbcType="VARCHAR"/>
+        <result property="shipperPhoneNumber" column="shipper_phone_number" jdbcType="VARCHAR"/>
+        <result property="shipperAddress" column="shipper_address" jdbcType="VARCHAR"/>
+        <result property="receiverName" column="receiver_name" jdbcType="VARCHAR"/>
+        <result property="receiverPhoneNumber" column="receiver_phone_number" jdbcType="VARCHAR"/>
+        <result property="receiverAddress" column="receiver_address" jdbcType="VARCHAR"/>
+        <result property="remark" column="remark" jdbcType="VARCHAR"/>
+    </resultMap>
+
+    <!--查询单个-->
+    <select id="queryById" resultMap="TransportOrderMap">
+        select
+          id, order_number, user_id, username, company_id, company_name, status, create_time, shipper_name, shipper_phone_number, shipper_address, receiver_name, receiver_phone_number, receiver_address, remark
+        from logistics_order_management.transport_order
+        where id = #{id}
+    </select>
+
+    <!--查询指定行数据-->
+    <select id="queryAllByLimit" resultMap="TransportOrderMap">
+        select
+          id, order_number, user_id, username, company_id, company_name, status, create_time, shipper_name, shipper_phone_number, shipper_address, receiver_name, receiver_phone_number, receiver_address, remark
+        from logistics_order_management.transport_order
+        limit #{offset}, #{limit}
+    </select>
+
+    <!--通过实体作为筛选条件查询-->
+    <select id="queryAll" resultMap="TransportOrderMap">
+        select
+        id, order_number, user_id, username, company_id, company_name, status, create_time, shipper_name,
+        shipper_phone_number, shipper_address, receiver_name, receiver_phone_number, receiver_address, remark
+        from logistics_order_management.transport_order
+        <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
+            <if test="orderNumber != null and orderNumber != ''">
+                and order_number = #{orderNumber}
+            </if>
+            <if test="userId != null">
+                and user_id = #{userId}
+            </if>
+            <if test="username != null and username != ''">
+                and username = #{username}
+            </if>
+            <if test="companyId != null">
+                and company_id = #{companyId}
+            </if>
+            <if test="companyName != null and companyName != ''">
+                and company_name = #{companyName}
+            </if>
+            <if test="status != null and status != ''">
+                and status = #{status}
+            </if>
+            <if test="createTime != null">
+                and create_time = #{createTime}
+            </if>
+            <if test="shipperName != null and shipperName != ''">
+                and shipper_name = #{shipperName}
+            </if>
+            <if test="shipperPhoneNumber != null and shipperPhoneNumber != ''">
+                and shipper_phone_number = #{shipperPhoneNumber}
+            </if>
+            <if test="shipperAddress != null and shipperAddress != ''">
+                and shipper_address = #{shipperAddress}
+            </if>
+            <if test="receiverName != null and receiverName != ''">
+                and receiver_name = #{receiverName}
+            </if>
+            <if test="receiverPhoneNumber != null and receiverPhoneNumber != ''">
+                and receiver_phone_number = #{receiverPhoneNumber}
+            </if>
+            <if test="receiverAddress != null and receiverAddress != ''">
+                and receiver_address = #{receiverAddress}
+            </if>
+            <if test="remark != null and remark != ''">
+                and remark = #{remark}
+            </if>
+        </where>
+    </select>
+
+    <!--新增所有列-->
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
+        insert into logistics_order_management.transport_order(order_number, user_id, username, company_id, company_name, status, create_time, shipper_name, shipper_phone_number, shipper_address, receiver_name, receiver_phone_number, receiver_address, remark)
+        values (#{orderNumber}, #{userId}, #{username}, #{companyId}, #{companyName}, #{status}, #{createTime}, #{shipperName}, #{shipperPhoneNumber}, #{shipperAddress}, #{receiverName}, #{receiverPhoneNumber}, #{receiverAddress}, #{remark})
+    </insert>
+
+    <insert id="insertBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into logistics_order_management.transport_order(order_number, user_id, username, company_id,
+        company_name, status, create_time, shipper_name, shipper_phone_number, shipper_address, receiver_name,
+        receiver_phone_number, receiver_address, remark)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.orderNumber}, #{entity.userId}, #{entity.username}, #{entity.companyId}, #{entity.companyName},
+            #{entity.status}, #{entity.createTime}, #{entity.shipperName}, #{entity.shipperPhoneNumber},
+            #{entity.shipperAddress}, #{entity.receiverName}, #{entity.receiverPhoneNumber}, #{entity.receiverAddress},
+            #{entity.remark})
+        </foreach>
+    </insert>
+
+    <insert id="insertOrUpdateBatch" keyProperty="id" useGeneratedKeys="true">
+        insert into logistics_order_management.transport_order(order_number, user_id, username, company_id,
+        company_name, status, create_time, shipper_name, shipper_phone_number, shipper_address, receiver_name,
+        receiver_phone_number, receiver_address, remark)
+        values
+        <foreach collection="entities" item="entity" separator=",">
+            (#{entity.orderNumber}, #{entity.userId}, #{entity.username}, #{entity.companyId}, #{entity.companyName},
+            #{entity.status}, #{entity.createTime}, #{entity.shipperName}, #{entity.shipperPhoneNumber},
+            #{entity.shipperAddress}, #{entity.receiverName}, #{entity.receiverPhoneNumber}, #{entity.receiverAddress},
+            #{entity.remark})
+        </foreach>
+        on duplicate key update
+        order_number = values(order_number) , user_id = values(user_id) , username = values(username) , company_id =
+        values(company_id) , company_name = values(company_name) , status = values(status) , create_time =
+        values(create_time) , shipper_name = values(shipper_name) , shipper_phone_number = values(shipper_phone_number)
+        , shipper_address = values(shipper_address) , receiver_name = values(receiver_name) , receiver_phone_number =
+        values(receiver_phone_number) , receiver_address = values(receiver_address) , remark = values(remark)
+    </insert>
+
+    <!--通过主键修改数据-->
+    <update id="update">
+        update logistics_order_management.transport_order
+        <set>
+            <if test="orderNumber != null and orderNumber != ''">
+                order_number = #{orderNumber},
+            </if>
+            <if test="userId != null">
+                user_id = #{userId},
+            </if>
+            <if test="username != null and username != ''">
+                username = #{username},
+            </if>
+            <if test="companyId != null">
+                company_id = #{companyId},
+            </if>
+            <if test="companyName != null and companyName != ''">
+                company_name = #{companyName},
+            </if>
+            <if test="status != null and status != ''">
+                status = #{status},
+            </if>
+            <if test="createTime != null">
+                create_time = #{createTime},
+            </if>
+            <if test="shipperName != null and shipperName != ''">
+                shipper_name = #{shipperName},
+            </if>
+            <if test="shipperPhoneNumber != null and shipperPhoneNumber != ''">
+                shipper_phone_number = #{shipperPhoneNumber},
+            </if>
+            <if test="shipperAddress != null and shipperAddress != ''">
+                shipper_address = #{shipperAddress},
+            </if>
+            <if test="receiverName != null and receiverName != ''">
+                receiver_name = #{receiverName},
+            </if>
+            <if test="receiverPhoneNumber != null and receiverPhoneNumber != ''">
+                receiver_phone_number = #{receiverPhoneNumber},
+            </if>
+            <if test="receiverAddress != null and receiverAddress != ''">
+                receiver_address = #{receiverAddress},
+            </if>
+            <if test="remark != null and remark != ''">
+                remark = #{remark},
+            </if>
+        </set>
+        where id = #{id}
+    </update>
+
+    <!--通过主键删除-->
+    <delete id="deleteById">
+        delete from logistics_order_management.transport_order where id = #{id}
+    </delete>
+
+</mapper>
+

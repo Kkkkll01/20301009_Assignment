@@ -1,0 +1,46 @@
+server:
+  port: 8081
+common:
+  exception-handle: false
+  cors: false
+  token-params: false
+auth:
+  exclude:
+    pattern: /user/login,/**
+spring:
+  application:
+    name: gateway
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+          lower-case-service-id: true
+      globalcors:
+        cors-configurations:
+          '[/**]':
+            allow-credentials: true
+            allowed-origin-patterns: "*"
+            allowed-headers: "*"
+            allowed-methods:
+              - OPTIONS
+              - GET
+              - POST
+              - PUT
+              - DELETE
+            max-age: 3600
+      routes:
+        - id: user
+          uri: http://localhost:8001
+          predicates:
+            - Path=/usr/**
+        - id: order
+          uri: http://localhost:8002
+          predicates:
+            - Path=/ord/**
+          filters:
+            - StripPrefix=1
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+

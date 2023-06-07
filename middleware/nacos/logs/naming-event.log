@@ -1,0 +1,62 @@
+2023-05-30 22:42:49,169 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.24.62.187:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-30 22:42:49,183 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 172.24.62.187:8081_true,
+
+2023-05-30 22:43:04,684 INFO DEFAULT_GROUP@@order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.24.62.187:8002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-30 22:43:04,684 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order, ips: 172.24.62.187:8002_true,
+
+2023-05-30 22:43:08,559 INFO DEFAULT_GROUP@@user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.24.62.187:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-30 22:43:08,559 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user, ips: 172.24.62.187:8001_true,
+
+2023-05-30 22:46:55,760 INFO DEFAULT_GROUP@@user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.24.62.187:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-30 22:46:55,770 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user, ips: 172.24.62.187:8001_true,
+
+2023-05-30 22:46:56,013 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.24.62.187:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-30 22:46:56,013 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 172.24.62.187:8081_true,
+
+2023-05-30 22:46:56,618 INFO DEFAULT_GROUP@@order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.24.62.187:8002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-30 22:46:56,618 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order, ips: 172.24.62.187:8002_true,
+
+2023-05-30 22:59:12,227 INFO {POS} {IP-DISABLED} valid: 172.24.62.187:8081@DEFAULT@DEFAULT_GROUP@@gateway, region: unknown, msg: client timeout after 15000, last beat: 1685458733199
+
+2023-05-30 22:59:26,971 INFO {POS} {IP-DISABLED} valid: 172.24.62.187:8001@DEFAULT@DEFAULT_GROUP@@user, region: unknown, msg: client timeout after 15000, last beat: 1685458747953
+
+2023-05-30 22:59:27,377 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.24.62.187:8081:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-30 22:59:27,377 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 
+
+2023-05-30 22:59:42,037 INFO DEFAULT_GROUP@@user {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.24.62.187:8001:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-30 22:59:42,037 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user, ips: 
+
+2023-05-30 22:59:42,998 INFO {POS} {IP-DISABLED} valid: 172.24.62.187:8002@DEFAULT@DEFAULT_GROUP@@order, region: unknown, msg: client timeout after 15000, last beat: 1685458763804
+
+2023-05-30 22:59:46,739 INFO DEFAULT_GROUP@@user {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.24.62.187:8001:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-30 22:59:46,739 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user, ips: 172.24.62.187:8001_true,
+
+2023-05-30 22:59:58,034 INFO DEFAULT_GROUP@@order {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [172.24.62.187:8002:unknown:DEFAULT_1.0_false_false_DEFAULT]
+
+2023-05-30 22:59:58,034 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order, ips: 
+
+2023-05-30 23:00:06,714 INFO DEFAULT_GROUP@@order {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.24.62.187:8002:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-30 23:00:06,714 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order, ips: 172.24.62.187:8002_true,
+
+2023-05-30 23:00:14,649 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user, ips: 172.24.62.187:8001_true,
+
+2023-05-30 23:00:53,907 INFO DEFAULT_GROUP@@gateway {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [172.24.62.187:8081:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2023-05-30 23:00:53,907 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 172.24.62.187:8081_true,
+
+2023-05-30 23:07:57,361 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@gateway, ips: 172.24.62.187:8081_true,
+
+2023-05-30 23:08:22,278 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@order, ips: 172.24.62.187:8002_true,
+
+2023-05-30 23:08:35,196 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@user, ips: 172.24.62.187:8001_true,
+

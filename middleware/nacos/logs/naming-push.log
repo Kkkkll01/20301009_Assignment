@@ -1,0 +1,161 @@
+2023-05-30 22:42:50,196 INFO DEFAULT_GROUP@@gateway is changed, add it to push queue.
+
+2023-05-30 22:42:50,220 INFO serviceName: DEFAULT_GROUP@@gateway changed, schedule push for: 172.24.62.187:64702, agent: Nacos-Java-Client:v1.4.2, key: 172.24.62.187,64702,83367234327900
+
+2023-05-30 22:42:50,220 INFO send udp packet: 172.24.62.187,64702,83367234327900
+
+2023-05-30 22:42:50,220 INFO serviceName: DEFAULT_GROUP@@gateway changed, schedule push for: 172.24.62.187:64702, agent: Nacos-Java-Client:v1.4.2, key: 172.24.62.187,64702,83367234327900
+
+2023-05-30 22:42:50,220 INFO send udp packet: 172.24.62.187,64702,83367234327900
+
+2023-05-30 22:42:50,220 INFO received ack: {"type": "push-ack", "lastRefTime":"83367234327900", "data":""} from: 172.24.62.187:, cost: 64702 ms, unacked: 0, total push: 0
+
+2023-05-30 22:42:50,239 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.24.62.187,64702,83367234327900, ack json: {"type": "push-ack", "lastRefTime":"83367234327900", "data":""}
+	at com.alibaba.nacos.naming.push.PushService$Receiver.run(PushService.java:642)
+	at java.lang.Thread.run(Thread.java:750)
+2023-05-30 22:43:05,710 INFO DEFAULT_GROUP@@order is changed, add it to push queue.
+
+2023-05-30 22:43:05,711 INFO serviceName: DEFAULT_GROUP@@order changed, schedule push for: 172.24.62.187:57737, agent: Nacos-Java-Client:v1.4.2, key: 172.24.62.187,57737,83382722355900
+
+2023-05-30 22:43:05,711 INFO send udp packet: 172.24.62.187,57737,83382722355900
+
+2023-05-30 22:43:05,713 INFO received ack: {"type": "push-ack", "lastRefTime":"83382722355900", "data":""} from: 172.24.62.187:, cost: 57737 ms, unacked: 2, total push: 0
+
+2023-05-30 22:43:09,576 INFO DEFAULT_GROUP@@user is changed, add it to push queue.
+
+2023-05-30 22:43:09,576 INFO serviceName: DEFAULT_GROUP@@user changed, schedule push for: 172.24.62.187:57738, agent: Nacos-Java-Client:v1.4.2, key: 172.24.62.187,57738,83386588080800
+
+2023-05-30 22:43:09,576 INFO send udp packet: 172.24.62.187,57738,83386588080800
+
+2023-05-30 22:43:09,580 INFO received ack: {"type": "push-ack", "lastRefTime":"83386588080800", "data":""} from: 172.24.62.187:, cost: 57738 ms, unacked: 4, total push: 0
+
+2023-05-30 22:46:56,784 INFO DEFAULT_GROUP@@user is changed, add it to push queue.
+
+2023-05-30 22:46:57,016 INFO DEFAULT_GROUP@@gateway is changed, add it to push queue.
+
+2023-05-30 22:46:57,622 INFO DEFAULT_GROUP@@order is changed, add it to push queue.
+
+2023-05-30 22:59:13,233 INFO DEFAULT_GROUP@@gateway is changed, add it to push queue.
+
+2023-05-30 22:59:27,986 INFO DEFAULT_GROUP@@user is changed, add it to push queue.
+
+2023-05-30 22:59:28,392 INFO DEFAULT_GROUP@@gateway is changed, add it to push queue.
+
+2023-05-30 22:59:43,049 INFO DEFAULT_GROUP@@user is changed, add it to push queue.
+
+2023-05-30 22:59:44,011 INFO DEFAULT_GROUP@@order is changed, add it to push queue.
+
+2023-05-30 22:59:47,765 INFO DEFAULT_GROUP@@user is changed, add it to push queue.
+
+2023-05-30 22:59:47,766 INFO serviceName: DEFAULT_GROUP@@user changed, schedule push for: 172.24.62.187:50864, agent: Nacos-Java-Client:v1.4.2, key: 172.24.62.187,50864,84384777494000
+
+2023-05-30 22:59:47,766 INFO send udp packet: 172.24.62.187,50864,84384777494000
+
+2023-05-30 22:59:47,766 INFO received ack: {"type": "push-ack", "lastRefTime":"84384777494000", "data":""} from: 172.24.62.187:, cost: 50864 ms, unacked: 0, total push: 0
+
+2023-05-30 22:59:59,039 INFO DEFAULT_GROUP@@order is changed, add it to push queue.
+
+2023-05-30 23:00:07,734 INFO DEFAULT_GROUP@@order is changed, add it to push queue.
+
+2023-05-30 23:00:07,735 INFO serviceName: DEFAULT_GROUP@@order changed, schedule push for: 172.24.62.187:49665, agent: Nacos-Java-Client:v1.4.2, key: 172.24.62.187,49665,84404746827200
+
+2023-05-30 23:00:07,735 INFO send udp packet: 172.24.62.187,49665,84404746827200
+
+2023-05-30 23:00:07,738 INFO received ack: {"type": "push-ack", "lastRefTime":"84404746827200", "data":""} from: 172.24.62.187:, cost: 49665 ms, unacked: 3, total push: 0
+
+2023-05-30 23:00:15,672 INFO DEFAULT_GROUP@@user is changed, add it to push queue.
+
+2023-05-30 23:00:15,672 INFO serviceName: DEFAULT_GROUP@@user changed, schedule push for: 172.24.62.187:50864, agent: Nacos-Java-Client:v1.4.2, key: 172.24.62.187,50864,84412684063500
+
+2023-05-30 23:00:15,672 INFO send udp packet: 172.24.62.187,50864,84412684063500
+
+2023-05-30 23:00:15,672 INFO serviceName: DEFAULT_GROUP@@user changed, schedule push for: 172.24.62.187:52491, agent: Nacos-Java-Client:v1.4.2, key: 172.24.62.187,52491,84412684063500
+
+2023-05-30 23:00:15,672 INFO send udp packet: 172.24.62.187,52491,84412684063500
+
+2023-05-30 23:00:15,677 INFO received ack: {"type": "push-ack", "lastRefTime":"84412684063500", "data":""} from: 172.24.62.187:, cost: 52491 ms, unacked: 5, total push: 1
+
+2023-05-30 23:00:25,680 INFO retry to push data, key: 172.24.62.187,50864,84412684063500
+
+2023-05-30 23:00:25,680 INFO send udp packet: 172.24.62.187,50864,84412684063500
+
+2023-05-30 23:00:35,684 INFO retry to push data, key: 172.24.62.187,50864,84412684063500
+
+2023-05-30 23:00:35,684 WARN max re-push times reached, retry times 2, key: 172.24.62.187,50864,84412684063500
+
+2023-05-30 23:00:54,922 INFO DEFAULT_GROUP@@gateway is changed, add it to push queue.
+
+2023-05-30 23:00:54,922 INFO serviceName: DEFAULT_GROUP@@gateway changed, schedule push for: 172.24.62.187:59155, agent: Nacos-Java-Client:v1.4.2, key: 172.24.62.187,59155,84451934203600
+
+2023-05-30 23:00:54,922 INFO send udp packet: 172.24.62.187,59155,84451934203600
+
+2023-05-30 23:00:54,923 INFO serviceName: DEFAULT_GROUP@@gateway changed, schedule push for: 172.24.62.187:59155, agent: Nacos-Java-Client:v1.4.2, key: 172.24.62.187,59155,84451934203600
+
+2023-05-30 23:00:54,923 INFO send udp packet: 172.24.62.187,59155,84451934203600
+
+2023-05-30 23:00:54,925 INFO received ack: {"type": "push-ack", "lastRefTime":"84451934203600", "data":""} from: 172.24.62.187:, cost: 59155 ms, unacked: 2, total push: 0
+
+2023-05-30 23:00:54,925 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.24.62.187,59155,84451934203600, ack json: {"type": "push-ack", "lastRefTime":"84451934203600", "data":""}
+	at com.alibaba.nacos.naming.push.PushService$Receiver.run(PushService.java:642)
+	at java.lang.Thread.run(Thread.java:750)
+2023-05-30 23:07:58,376 INFO DEFAULT_GROUP@@gateway is changed, add it to push queue.
+
+2023-05-30 23:07:58,376 INFO serviceName: DEFAULT_GROUP@@gateway changed, schedule push for: 172.24.62.187:51592, agent: Nacos-Java-Client:v1.4.2, key: 172.24.62.187,51592,84875388608500
+
+2023-05-30 23:07:58,376 INFO send udp packet: 172.24.62.187,51592,84875388608500
+
+2023-05-30 23:07:58,377 INFO serviceName: DEFAULT_GROUP@@gateway changed, schedule push for: 172.24.62.187:51592, agent: Nacos-Java-Client:v1.4.2, key: 172.24.62.187,51592,84875388608500
+
+2023-05-30 23:07:58,377 INFO send udp packet: 172.24.62.187,51592,84875388608500
+
+2023-05-30 23:07:58,379 INFO received ack: {"type": "push-ack", "lastRefTime":"84875388608500", "data":""} from: 172.24.62.187:, cost: 51592 ms, unacked: 2, total push: 0
+
+2023-05-30 23:07:58,379 ERROR [NACOS-PUSH] error while receiving ack data
+
+java.lang.IllegalStateException: unable to find ackEntry for key: 172.24.62.187,51592,84875388608500, ack json: {"type": "push-ack", "lastRefTime":"84875388608500", "data":""}
+	at com.alibaba.nacos.naming.push.PushService$Receiver.run(PushService.java:642)
+	at java.lang.Thread.run(Thread.java:750)
+2023-05-30 23:08:23,283 INFO DEFAULT_GROUP@@order is changed, add it to push queue.
+
+2023-05-30 23:08:23,283 INFO serviceName: DEFAULT_GROUP@@order changed, schedule push for: 172.24.62.187:52693, agent: Nacos-Java-Client:v1.4.2, key: 172.24.62.187,52693,84900295680400
+
+2023-05-30 23:08:23,283 INFO send udp packet: 172.24.62.187,52693,84900295680400
+
+2023-05-30 23:08:23,283 INFO serviceName: DEFAULT_GROUP@@order changed, schedule push for: 172.24.62.187:51592, agent: Nacos-Java-Client:v1.4.2, key: 172.24.62.187,51592,84900295680400
+
+2023-05-30 23:08:23,283 INFO send udp packet: 172.24.62.187,51592,84900295680400
+
+2023-05-30 23:08:23,286 INFO received ack: {"type": "push-ack", "lastRefTime":"84900295680400", "data":""} from: 172.24.62.187:, cost: 51592 ms, unacked: 3, total push: 1
+
+2023-05-30 23:08:23,286 INFO received ack: {"type": "push-ack", "lastRefTime":"84900295680400", "data":""} from: 172.24.62.187:, cost: 52693 ms, unacked: 3, total push: 0
+
+2023-05-30 23:08:36,207 INFO DEFAULT_GROUP@@user is changed, add it to push queue.
+
+2023-05-30 23:08:36,207 INFO serviceName: DEFAULT_GROUP@@user changed, schedule push for: 172.24.62.187:51592, agent: Nacos-Java-Client:v1.4.2, key: 172.24.62.187,51592,84913219302400
+
+2023-05-30 23:08:36,207 INFO send udp packet: 172.24.62.187,51592,84913219302400
+
+2023-05-30 23:08:36,207 INFO serviceName: DEFAULT_GROUP@@user changed, schedule push for: 172.24.62.187:52491, agent: Nacos-Java-Client:v1.4.2, key: 172.24.62.187,52491,84913219302400
+
+2023-05-30 23:08:36,207 INFO send udp packet: 172.24.62.187,52491,84913219302400
+
+2023-05-30 23:08:36,207 INFO serviceName: DEFAULT_GROUP@@user changed, schedule push for: 172.24.62.187:52694, agent: Nacos-Java-Client:v1.4.2, key: 172.24.62.187,52694,84913219302400
+
+2023-05-30 23:08:36,207 INFO send udp packet: 172.24.62.187,52694,84913219302400
+
+2023-05-30 23:08:36,208 INFO received ack: {"type": "push-ack", "lastRefTime":"84913219302400", "data":""} from: 172.24.62.187:, cost: 51592 ms, unacked: 1, total push: 2
+
+2023-05-30 23:08:36,208 INFO received ack: {"type": "push-ack", "lastRefTime":"84913219302400", "data":""} from: 172.24.62.187:, cost: 52694 ms, unacked: 1, total push: 1
+
+2023-05-30 23:08:46,221 INFO retry to push data, key: 172.24.62.187,52491,84913219302400
+
+2023-05-30 23:08:46,221 INFO send udp packet: 172.24.62.187,52491,84913219302400
+
+2023-05-30 23:08:56,229 INFO retry to push data, key: 172.24.62.187,52491,84913219302400
+
+2023-05-30 23:08:56,230 WARN max re-push times reached, retry times 2, key: 172.24.62.187,52491,84913219302400
+
